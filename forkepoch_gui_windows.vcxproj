@@ -129,6 +129,17 @@
   <ItemGroup>
     <ClCompile Include="fe_main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app_defs.h" />
+    <ClInclude Include="fe_main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="forkepoch_gui_windows.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
