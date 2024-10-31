@@ -1,2 +1,4 @@
 ﻿  fe_main.cpp
+D:\Projects\C++ Development\Win32 API\forkepoch-gui-windows\fe_main.cpp(99,28): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\Projects\C++ Development\Win32 API\forkepoch-gui-windows\fe_main.cpp(217,17): warning C4312: 'type cast': conversion from 'LONG' to 'HINSTANCE' of greater size
   forkepoch_gui_windows.vcxproj -> D:\Projects\C++ Development\Win32 API\forkepoch-gui-windows\x64\Debug\forkepoch_gui_windows.exe

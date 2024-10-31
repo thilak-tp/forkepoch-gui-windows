@@ -18,6 +18,9 @@
     <ClCompile Include="fe_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="time_conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="app_defs.h">
@@ -27,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_conv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

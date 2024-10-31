@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="fe_main.cpp" />
+    <ClCompile Include="time_conv.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="app_defs.h" />
     <ClInclude Include="fe_main.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="time_conv.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="forkepoch_gui_windows.rc" />
